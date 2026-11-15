@@ -1,19 +1,48 @@
-# Assignment 4 — Styled Portfolio
+# Assignment 4 – Styled Personal Portfolio
 
-The Assignment 1 portfolio restyled with external CSS, design tokens, Google Font pairing, semantic selectors and hover states.
+## Description
+This project is a personal portfolio website created using HTML and CSS. It introduces my background, skills, education, projects, interests and contact information.
 
-## How to run
-Open the main HTML file in a browser, or use VS Code Live Server.
+## Features
+- Personal introduction and navigation menu.
+- About Me section.
+- Skills and Education sections.
+- Projects and Interests sections.
+- Contact information with an email link.
+- Images with meaningful alt text.
+- Semantic HTML elements for page structure.
+- External CSS stylesheet and Google Fonts.
 
-## What I learned
-- Structuring pages with semantic HTML.
-- Styling and layout with CSS.
+## Technologies Used
+- HTML5
+- CSS3
+- Google Fonts
 
-## One challenge
-Selecting a small colour palette and reusing CSS variables so the design stays consistent.
+## Project Structure
+```text
+Assignment-4-Styled-Portfolio/
+│
+├── index.html
+├── style.css
+└── assets/
+    ├── profile-placeholder.svg
+    └── gallery-1.svg
+```
 
-## Design Choices
-Manrope is used for strong, compact headings and DM Sans for comfortable body reading. Deep teal, mint and off-white create a calm campus/technology palette with clear contrast.
+## Challenge Faced
+1. Organizing different portfolio sections using semantic HTML elements and internal navigation links.
 
-## Author
-Ansh Chauhan — B.Tech CSE, 1st Year
+## Learning Outcomes
+- Learned to structure a portfolio using HTML.
+- Practiced using semantic HTML elements.
+- Understood internal navigation links.
+- Learned to add images with alt text.
+- Practiced linking an external CSS file.
+
+## How to Run
+1. Download or clone the project.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+
+## Conclusion
+This assignment helped me practice HTML structure, semantic elements, navigation links and external CSS styling while creating a personal portfolio.
