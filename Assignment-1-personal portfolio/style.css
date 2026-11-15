@@ -1,0 +1,124 @@
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main form container */
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+}
+
+/* Form labels and inputs */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Form sections */
+fieldset {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1e3a5f;
+}
+
+/* Radio buttons and checkboxes */
+.option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.option input {
+    width: auto;
+}
+
+.option label {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #ddd;
+    color: black;
+    margin-left: 10px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #777;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 500px) {
+    .container {
+        padding: 18px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+}   
+     body {
+        background-color: #f30dcc;  
