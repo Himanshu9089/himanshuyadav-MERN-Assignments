@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Job Application Form">
+    <meta name="author" content="Himanshu Yadav">
+
+    <title>Job Application Form</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Job Application Form</h1>
+        <p class="subtitle">Please fill in your details below.</p>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <!-- Personal Information -->
+            <h2>Personal Information</h2>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                   required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter phone number" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"
+                   min="18" max="60">
+
+            <!-- Gender Selection -->
+            <fieldset>
+                <legend>Gender</legend>
+
+                <label class="option">
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label class="option">
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+                <label class="option">
+                    <input type="radio" name="gender" value="Other">
+                    Other
+                </label>
+            </fieldset>
+
+            <!-- Job Details -->
+            <h2>Job Details</h2>
+
+            <label for="position">Select Job Position:</label>
+            <select id="position" name="position" required>
+                <option value="">-- Select Position --</option>
+                <option value="Web Developer">Web Developer</option>
+                <option value="Frontend Developer">Frontend Developer</option>
+                <option value="Backend Developer">Backend Developer</option>
+                <option value="Software Developer">Software Developer</option>
+            </select>
+
+            <label for="experience">Work Experience (Years):</label>
+            <input type="number" id="experience" name="experience"
+                   min="0" max="40">
+
+            <label for="joining">Available Joining Date:</label>
+            <input type="date" id="joining" name="joining">
+
+            <!-- Skills -->
+            <fieldset>
+                <legend>Technical Skills</legend>
+
+                <label class="option">
+                    <input type="checkbox" name="skills" value="HTML">
+                    HTML
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="skills" value="CSS">
+                    CSS
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="skills" value="JavaScript">
+                    JavaScript
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="skills" value="Python">
+                    Python
+                </label>
+            </fieldset>
+
+            <!-- Resume Upload -->
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume"
+                   accept=".pdf,.doc,.docx">
+
+            <!-- Address -->
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"
+                      rows="3" placeholder="Enter your address"></textarea>
+
+            <label for="message">Why should we hire you?</label>
+            <textarea id="message" name="message"
+                      rows="4" placeholder="Write something about yourself"></textarea>
+
+            <!-- Buttons -->
+            <button type="submit" class="submit-btn">
+                Submit Application
+            </button>
+
+            <button type="reset" class="reset-btn">
+                Reset Form
+            </button>
+
+                    <footer>
+            <p>Created by Himanshu Yadav | 2026</p>
+        </footer>
+
+
+        </form>
+
+    
+
+    </div>
+
+</body>
+</html>
