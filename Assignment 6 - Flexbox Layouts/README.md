@@ -1,16 +1,43 @@
-# Assignment 6 — Flexbox Layouts
+# Assignment 7 – Flexbox Layouts
 
-Four separate pages demonstrate a flexible menu, centred login form, wrapping product list and navbar/hero.
+## Description
+This assignment focuses on creating different webpage layouts using CSS Flexbox. It includes a navigation menu, a navbar with a hero section, and a responsive product listing.
 
-## How to run
-Open the main HTML file in a browser, or use VS Code Live Server.
+## Features
+- Created a horizontal navigation menu using Flexbox.
+- Designed a navbar and hero section with centered content.
+- Created a product listing with eight product cards.
+- Used `display: flex`, `gap`, `flex-wrap`, and `flex-grow`.
+- Added responsive styling for smaller screens.
 
-## What I learned
-- Structuring pages with semantic HTML.
-- Styling and layout with CSS.
+## Technologies Used
+- HTML5
+- CSS3
+- CSS Flexbox
 
-## One challenge
-Understanding how justify-content and align-items control the main and cross axes, and how flex-wrap prevents overflow.
+## Project Structure
+```text
+Assignment-7-Flexbox-Layouts/
+│
+├── index.html
+├── style.css
+└── README.md
+```
 
-## Author
-himanshu yadav — B.Tech CSE, 1st Year
+## Learning Outcomes
+- Learned how to use CSS Flexbox.
+- Understood alignment and spacing using Flexbox properties.
+- Learned how to create flexible navigation menus.
+- Practiced creating product cards that wrap according to screen size.
+- Understood basic responsive design using media queries.
+
+## Challenge Faced
+Arranging navigation links and product cards properly using Flexbox while maintaining a responsive layout on different screen sizes.
+
+## How to Run
+1. Open the project folder.
+2. Open `index.html` in a web browser.
+3. View the webpage and its Flexbox layouts.
+
+## Conclusion
+This assignment helped me understand CSS Flexbox and how to create flexible, well-organized, and responsive webpage layouts.
