@@ -341,4 +341,8 @@ footer h3 {
         width: 90%;
     }
 }
+.hours p {
+    color: #66554b;
+    line-height: 1.8;
+}
 
